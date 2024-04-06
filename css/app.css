@@ -35,7 +35,7 @@ body {
     width: 90px;
     height: 40px;
     margin-top: 5px;
-    left: 100%;
+    /* left: 100%; */
 }
 
     .switch input {
@@ -875,3 +875,7 @@ body {
     .loading-progress-text:after {
         content: var(--blazor-load-percentage-text, "Loading");
     }
+
+.top-row {
+    text-align: center;
+}
